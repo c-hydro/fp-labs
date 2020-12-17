@@ -12,9 +12,9 @@ unset PYTHON_INCLUDE
 wget https://repo.anaconda.com/miniconda/Miniconda3-4.7.10-Linux-x86_64.sh -O miniconda.sh
 bash miniconda.sh -b -p $HOME/miniconda
 export PATH="$HOME/miniconda/bin:$PATH"
-conda create -n sm_env
-conda install -n sm_env -c conda-forge numpy scipy pandas matplotlib rasterio geopandas netCDF4 pyflakes statsmodels cartopy basemap basemap-data-hires cython h5py jupyter gdal python=3.6 metview pybufr-ecmwf pykdtree pygrib pyresample
-source activate sm_env
+conda create -n hsaf_env
+conda install -n hsaf_env -c conda-forge numpy scipy pandas matplotlib rasterio geopandas netCDF4 pyflakes statsmodels cartopy basemap basemap-data-hires cython h5py jupyter gdal python=3.6 metview pybufr-ecmwf pykdtree pygrib pyresample
+source activate hsaf_env
 conda install -c conda-forge cdo 
 pip install --upgrade pip
 pip install ascat pytesmo metview
