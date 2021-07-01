@@ -2,6 +2,8 @@
 A brief intoduction to the use of Python for analysing hydrological time series.
 Some free available datasets are used as reference. 
 Further data can be integrated and downloaded. 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/c-hydro/fp-labs-generic/HEAD?filepath=python_for_hydrologists%2FIntroduction2Python_forHydrologist.ipynb)
+
 
 **References**
 * NOAA - Global Historical Climatology Network Daily : https://www.ncdc.noaa.gov/ghcnd-data-access
