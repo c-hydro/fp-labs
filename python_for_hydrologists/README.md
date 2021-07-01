@@ -1,4 +1,4 @@
-# Python for hydrologist
+# Python for hydrologists
 A brief intoduction to the use of Python for analysing hydrological time series.
 Some free available datasets are used as reference. 
 Further data can be integrated and downloaded. 
